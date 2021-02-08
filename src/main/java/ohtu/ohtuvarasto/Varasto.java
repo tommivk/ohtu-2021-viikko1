@@ -17,7 +17,7 @@ public class Varasto {
     }
 
     public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
-         setTilavuus(tilavuus);
+        setTilavuus(tilavuus);
         setSaldo(alkuSaldo, tilavuus);
     }
 
